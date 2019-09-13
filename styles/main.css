@@ -1,10 +1,14 @@
 
-/* a
+a
 {
   text-decoration: none;
   color: #232323;
   
   transition: color 0.3s ease;
+}
+
+.navigation {
+  position: absolute;
 }
 
 a:hover
@@ -116,11 +120,11 @@ a:hover
 #menuToggle input:checked ~ ul
 {
   transform: none;
-} */
+}
 
 /* ----------------------------------------------------------------------------------------- */
 
-.hero.hero-lg:first-child  {
+.hero.hero-lg.--first  {
   background-color: black;
   height: 100vh;
 }
@@ -133,8 +137,6 @@ a:hover
 
 .git {
   background-color: white;
-  padding: 8%;
-  
 }
 
 .vl {
@@ -160,18 +162,22 @@ div.col-10 p {
   padding-bottom: 20%;
 }
 
-.hero.hero-lg:nth-child(2) {
+.hero.hero-lg.--second {
   height: 100vh;
   background-color: white;
 }
 
-.hero.hero-lg:nth-child(3) {
+.hero.hero-lg.--third {
   height: 100vh;
   background-color: black;
   padding: 0 !important;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-self: center;
 }
 
-div.hero-lg:nth-child(3) h1 {
+div.hero-lg.--third h1 {
   color: white;
   font-family: 'Source Code Pro', monospace;
   font-size: 60px;
@@ -193,7 +199,45 @@ div.hero-lg:nth-child(3) h1 {
   box-shadow: 0 25px 25px 0 rgba(252, 240, 240, 0.6);
 }
 
-.hero.hero-lg:nth-child(4) {
+.hero.hero-lg.--fourth {
   height: 100vh;
+  background-color: white;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section.section--large {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section a {
+  color: red;
+}
+
+.carousel {
+  width: 634px !important;
+  margin: 0 auto;
+}
+
+.carousel-item--description {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  color: green;
+  justify-content: center;
+  display: flex;
+  height: 100px;
   background-color: white;
 }
