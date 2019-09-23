@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Sim Brar Portfolio</title>
@@ -25,9 +27,6 @@
           <a href="#home">
             <li>Home</li>
           </a>
-          <a href="#about">
-            <li>About</li>
-          </a>
           <a href="#projects">
             <li>Projects</li>
           </a>
@@ -40,120 +39,177 @@
     <div class="hero hero-lg container --first" id="home">
       <div class="columns">
         <div class="col-auto">
-          <a class="git" href="https://github.com/simbrar1">
-            <!-- <img src="./svg 2/mark-github.svg" /> -->
-            <svg xmlns="http://www.w3.org/2000/svg" width="27px" height="27px"
-              viewBox="0 0 16 16">
-              <path fill-rule="evenodd"
-                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
-            </svg>
-          </a>
-            <a class="linked" href="https://www.linkedin.com/in/sim-brar1/"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+          <ul class="social-icons icon-circle list-unstyled list-inline">
+            <div class="techs">
+            <span class="git-first" style="font-size: 50px; color:white;"> <a href="https://github.com/simbrar1"><i class="fa fa-github custom-color"></i></a></span>
+            <span style="font-size: 50px; color:red;">
+            <a href="https://www.linkedin.com/in/sim-brar1/"><i class="fa fa-linkedin-square"></i></a></span>
+            </div>
+          </ul>
         </div>
         <div class="vl"></div>
           <div class="section col-10">
             <h1> Hi! I'm Sim, welcome to my portfolio.</h1>
-            <a class="c-hand" href="mailto:mailto:sim.brar01@gmail.com?Subject=Hello%20again" target="_top">Message me.</a>
+            <a class="c-hand" href="mailto:mailto:sim.brar01@gmail.com?Subject=Hello" target="_top">Message me.</a>
           </div>
         </div>
       </div>
-  <!-- skills -->
-      <div class="hero hero-lg container --second" id="about">
-        <h3>Below are the key skills I have leaernt while being at General Assembly </h3>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS</li>
-            <li>SASS</li>
-            <li>JavaScript</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>Express.js</li>
-            <li>Mongoose</li>
-            <li>Pythong</li>
-            <li>Flask</li>
-            <li>MongoDB</li>
-            <li>PostgresSQL</li>
-         </ul>
+      <!-- Projects -->
+      <div class="hero hero-lg container --second" id="home">
+        <section id="projects" class="projects">
+          <div>
+            <h1 class="title">Snake - Lion King Edition</h1>
+          </div>
+          <div>
+            <span style="font-size: 50px; color:red;"> <a href="https://github.com/simbrar1/SEI-project-1/blob/master/readme.md"><i
+            class="fa fa-github custom-color"></i></a></span>
+            <span style="font-size: 50px; color:red;"> <a href="https://simbrar1.github.io/SEI-project-1/"><i
+            class="fa fa-play-circle-o custom-color"></i></a></span>
+          </div>
+          <div>
+            <p>
+              A Vanilla JS app inspired by the classic game of Snake. Aim of the game is to move the lion around the grid to eat the
+              food without touching the sides...otherwise it's GAME OVER.
+            </p>
+            <p>Technologies used</p>
+            <div class="icons">
+              <span style="font-size: 40px; color: red;">
+                <i class="devicon-javascript-plain"></i></span>
+              <span style="font-size: 40px; color: red;">
+                <i class="devicon-html5-plain-wordmark"></i>
+              </span>
+              <span style="font-size: 40px; color: red;">
+                <i class="devicon-css3-plain-wordmark"></i>
+              </span>
+              <div class="snake">
+                <img class="snake" src="assets/gamec.png" alt="snake">
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
-  <!-- Projects -->
-      <div class="hero hero-lg container --third" id="projects">
-        <h1>
-          My Projects 
-        </h1>
-         <!-- <section class="col-auto">
-          <div class="card"> -->
-            <!-- <div class="card-image">
-              <img src="img/osx-el-capitan.jpg" class="img-responsive">
-            </div> -->
-            <!--<div class="card-header">
-              <div class="card-title h5">Project 1</div>
-              <div class="card-subtitle text-gray">This was fun</div>
+<!-- Movie Quiz -->
+        <div class="hero hero-lg container --third" id="home">
+          <section id="project-1" class="project-1">
+            <div>
+              <h1 class="title">Movie Quiz</h1>
             </div>
-            <div class="card-body">
-              I used a lot of animations 
+            
+              <span style="font-size: 50px; color:red;"><a href="https://github.com/simbrar1/SEI-project-2/blob/master/readme.md"><i class="fa fa-github custom-color"></i></a>
+              </span>
+              <span style="font-size: 50px; color:red;"><a href="https://moviequiz.herokuapp.com/"><i class="fa fa-play-circle-o custom-color"></i></a></span>
+            
+              <div>
+                <p>A React Movie Quiz App with a built in third party API. The app allows you to choose different levels of difficulties on questions about popular movies. The quiz is out of 10 and it will show your score at the end!
+                </p>
+                <p>Technologies used</p>
+                <div class="icons">
+                  <span style="font-size: 40px; color: red;">
+                    <i class="devicon-javascript-plain"></i></span>
+                  <span style="font-size: 40px; color: red;">
+                    <i class="devicon-html5-plain-wordmark"></i>
+                  </span>
+                    <span style="font-size: 40px; color: red;">
+                    <i class="devicon-css3-plain-wordmark"></i>
+                  </span>
+                  <span style="font-size: 40px; color: red;">
+                    <i class="devicon-react-original-wordmark"></i>
+                  </span>
+                  <img class="api" src="assets/api(2).png" alt="api">
+                  <div class="line"></div>
+                </div>
+                <div class="quiz">
+                  <img class="quiz" src="assets/quiz1.jpg" alt="quiz">
+                </div>
+              </div>
+            </section>
+          </div>
+<!-- buddle -->
+        <div class="hero hero-lg container --fourth" id="home">
+          <section id="project-2" class="project-2">
+            <div>
+              <h1 class="title">Buddle</h1>
             </div>
-            <div class="card-footer">
-              <button class="btn btn-primary"></button>
+            <span style="font-size: 50px; color:red;"><a href="https://github.com/simbrar1/sei-group-project"><i
+                  class="fa fa-github custom-color"></i></a>
+            </span>
+            <span style="font-size: 50px; color:red;"><a href="https://buddle-app.herokuapp.com/"><i class="fa fa-play-circle-o custom-color"></i></a></span>
+            <div>
+              <p> A full stack React and Node.js app
+              </p>
+              <p>Technologies used</p>
+              <div class="icons">
+                <span style="font-size: 40px; color: red;">
+                  <i class="devicon-html5-plain-wordmark"></i>
+                </span>
+                <span style="font-size: 40px; color: red;">
+                  <i class="devicon-sass-original"></i>
+                </span>
+                <span style="font-size: 40px; color: red;">
+                  <i class="devicon-javascript-plain"></i></span>
+                <span style="font-size: 40px; color: red;">
+                  <i class="devicon-react-original-wordmark"></i>
+                </span>
+                <span style="font-size: 55px; color: red;">
+                  <i class="devicon-express-original-wordmark"></i>
+                </span>
+                <span style="font-size: 55px; color: red;">
+                  <i class="devicon-nodejs-plain-wordmark"></i>
+                </span>
+                <span style="font-size: 55px; color: red;">
+                  <i class="devicon-mongodb-plain-wordmark"></i>
+                </span>
+                <img class="api" src="assets/api(2).png" alt="api">
+                <div class="line"></div>
+              </div>
+              <div class="buddle">
+                <img class="buddle" src="assets/buddle.png" alt="buddle">
+              </div>
             </div>
-          </div>
-        </section> -->
-        <div class="carousel">
-          <!-- carousel locator -->
-          <input class="carousel-locator" id="slide-1" type="radio" name="carousel-radio" hidden="" checked="">
-          <input class="carousel-locator" id="slide-2" type="radio" name="carousel-radio" hidden="">
-          <input class="carousel-locator" id="slide-3" type="radio" name="carousel-radio" hidden="">
-          <input class="carousel-locator" id="slide-4" type="radio" name="carousel-radio" hidden="">
-        
-          <!-- carousel container -->
-          <div class="carousel-container">
-            <!-- carousel item -->
-            <figure class="carousel-item">
-              <label class="item-prev btn btn-action btn-lg" for="slide-4"><i class="icon icon-arrow-left"></i></label>
-              <label class="item-next btn btn-action btn-lg" for="slide-2"><i class="icon icon-arrow-right"></i></label>
-              <img class="img-responsive rounded" src="assets/game.jpg" alt="Game 1" />
-              <div class="carousel-item--description">
-                  <p>HELLO THI IS GAME 1</p>
-              </div>
-            </figure>
-            <figure class="carousel-item">
-              <label class="item-prev btn btn-action btn-lg" for="slide-1"><i class="icon icon-arrow-left"></i></label>
-              <label class="item-next btn btn-action btn-lg" for="slide-3"><i class="icon icon-arrow-right"></i></label>
-              <img class="img-responsive rounded" src="assets/quiz.jpg" alt="Quiz 1">
-              <div class="carousel-item--description">
-                <p>HELLO THI IS QUIZ 1</p>
-              </div>
-            </figure>
-            <figure class="carousel-item">
-              <label class="item-prev btn btn-action btn-lg" for="slide-2"><i class="icon icon-arrow-left"></i></label>
-              <label class="item-next btn btn-action btn-lg" for="slide-4"><i class="icon icon-arrow-right"></i></label>
-              <img class="img-responsive rounded" src="assets/game.jpg" alt="Game 2">
-              <div class="carousel-item--description">
-                <p>HELLO THI IS game 2</p>
-              </div>
-            </figure>
-            <figure class="carousel-item">
-              <label class="item-prev btn btn-action btn-lg" for="slide-3"><i class="icon icon-arrow-left"></i></label>
-              <label class="item-next btn btn-action btn-lg" for="slide-1"><i class="icon icon-arrow-right"></i></label>
-              <img class="img-responsive rounded" src="assets/quiz.jpg" alt="Quiz 2">
-              <div class="carousel-item--description">
-                <p>HELLO THI IS quiz 2</p>
-              </div>
-            </figure>
-          </div>
-          <!-- carousel navigation -->
-          <div class="carousel-nav">
-            <label class="nav-item text-hide c-hand" for="slide-1">1</label>
-            <label class="nav-item text-hide c-hand" for="slide-2">2</label>
-            <label class="nav-item text-hide c-hand" for="slide-3">3</label>
-            <label class="nav-item text-hide c-hand" for="slide-4">4</label>
-          </div>
+          </section>
         </div>
-      </div>
-      <!-- Contact -->
-      <div class="hero hero-lg container --fourth" id="contact">
-        <h1>Contact me</h1>
-
-      </div>
+<!-- History -->
+          <div class="hero hero-lg container --fifth" id="home">
+            <section id="project-3" class="project-3">
+              <div>
+                <h1 class="title">History Info</h1>
+              </div>
+              <span style="font-size: 50px; color:red;"><a href="https://github.com/simbrar1/SEI-Project-4"><i
+                    class="fa fa-github custom-color"></i></a>
+              </span>
+              <span style="font-size: 50px; color:red;"><a href="https://historysb.herokuapp.com/"><i class="fa fa-play-circle-o custom-color"></i></a></span>
+              <div>
+                <p> A full stack React and Python app
+                </p>
+                <p>Technologies used</p>
+                <div class="icons">
+                  <span style="font-size: 40px; color: red;">
+                    <i class="devicon-html5-plain-wordmark"></i>
+                  </span>
+                  <span style="font-size: 40px; color: red;">
+                    <i class="devicon-sass-original"></i>
+                  </span>
+                  <span style="font-size: 40px; color: red;">
+                    <i class="devicon-javascript-plain"></i></span>
+                  <span style="font-size: 40px; color: red;">
+                    <i class="devicon-react-original-wordmark"></i>
+                  </span>
+                  <span style="font-size: 55px; color: red;">
+                    <i class="devicon-python-plain-wordmark"></i>
+                  </span>
+                  <span style="font-size: 55px; color: red;">
+                    <i class="devicon-postgresql-plain-wordmark"></i>
+                  </span>
+                  <img class="flask" src="assets/flask.png" alt="flask">
+                  <div class="line"></div>
+                </div>
+                <div class="history">
+                  <img class="history" src="assets/history1.png" alt="history">
+                </div>
+              </div>
+          </section>
+        </div>
+      </section>
     </main>
   </body>
 </html>

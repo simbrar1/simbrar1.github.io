@@ -1,8 +1,7 @@
 
-a
-{
+#menu a {
   text-decoration: none;
-  color: #232323;
+  color: black !important;
   
   transition: color 0.3s ease;
 }
@@ -11,13 +10,11 @@ a
   position: absolute;
 }
 
-a:hover
-{
-  color: red;
+#menu a:hover {
+  color: red !important;
 }
 
-#menuToggle
-{
+#menuToggle {
   display: block;
   position: relative;
   top: 50px;
@@ -29,8 +26,7 @@ a:hover
   user-select: none;
 }
 
-#menuToggle input
-{
+#menuToggle input {
   display: block;
   width: 40px;
   height: 32px;
@@ -47,8 +43,7 @@ a:hover
 }
 
 
-#menuToggle span
-{
+#menuToggle span {
   display: block;
   width: 33px;
   height: 4px;
@@ -67,36 +62,30 @@ a:hover
               opacity 0.55s ease;
 }
 
-#menuToggle span:first-child
-{
+#menuToggle span:first-child {
   transform-origin: 0% 0%;
 }
 
-#menuToggle span:nth-last-child(2)
-{
+#menuToggle span:nth-last-child(2) {
   transform-origin: 0% 100%;
 }
 
-#menuToggle input:checked ~ span
-{
+#menuToggle input:checked ~ span {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
   background: #232323;
 }
 
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
+#menuToggle input:checked ~ span:nth-last-child(3) {
   opacity: 0;
   transform: rotate(0deg) scale(0.2, 0.2);
 }
 
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
+#menuToggle input:checked ~ span:nth-last-child(2) {
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-#menu
-{
+#menu {
   position: absolute;
   width: 300px;
   margin: -100px 0 0 -50px;
@@ -129,14 +118,24 @@ a:hover
   height: 100vh;
 }
 
-.fa-linkedin-square:before {
-  /* padding: 6%; */
-  padding-top: 10%;
-  color: white;
+.fa-github:before {
+  color: red;
+  /* display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  position: absolute;
+  padding-top: 20px; */
+  padding-left: 7px;
+
 }
 
-.git {
-  background-color: white;
+.fa-linkedin-square:before {
+  padding-top: 7%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: absolute;
 }
 
 .vl {
@@ -144,64 +143,6 @@ a:hover
   height: 400px;
   position: absolute;
   left: 10%;
-}
-
-div.col-10 h1 {
-  font-family: 'Source Code Pro', monospace;
-  color: white;
-  margin-left: 15%;
-  margin-top: 10%;
-  font-size: 70px;
-  text-align: center;
-}
-
-div.col-10 p {
-  font-family: 'Source Code Pro', monospace;
-  color: red;
-  margin-left: 18%;
-  padding-bottom: 20%;
-}
-
-.hero.hero-lg.--second {
-  height: 100vh;
-  background-color: white;
-}
-
-.hero.hero-lg.--third {
-  height: 100vh;
-  background-color: black;
-  padding: 0 !important;
-
-  display: flex;
-  justify-content: space-evenly;
-  align-self: center;
-}
-
-div.hero-lg.--third h1 {
-  color: white;
-  font-family: 'Source Code Pro', monospace;
-  font-size: 60px;
-  text-align: center;
-  text-transform: uppercase;
-  margin: 0%;
-  padding: 0%;
-}
-
-.card {
-  max-width: 40%;
-  margin: auto;
-  box-shadow: 0 20px 28px 0 rgba(218, 33, 33, 0.9);
-  transition: 0.3s;
-  padding-top: 30%;
-}
-
-.card:hover {
-  box-shadow: 0 25px 25px 0 rgba(252, 240, 240, 0.6);
-}
-
-.hero.hero-lg.--fourth {
-  height: 100vh;
-  background-color: white;
 }
 
 .section {
@@ -222,22 +163,175 @@ div.hero-lg.--third h1 {
   color: red;
 }
 
-.carousel {
-  width: 634px !important;
-  margin: 0 auto;
+.section a:hover {
+  color: red;
 }
 
-.carousel-item--description {
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  color: green;
-  justify-content: center;
-  display: flex;
-  height: 100px;
-  background-color: white;
+div.col-10 h1 {
+  font-family: 'Source Code Pro', monospace;
+  color: white;
+  margin-left: 15%;
+  margin-top: 10%;
+  font-size: 70px;
+  text-align: center;
 }
+
+.hero.hero-lg.--second {
+  background-color: white;
+  text-align: center;
+  height: 100vh;
+  padding: 0%;
+}
+
+.fa-play-circle-o:before {
+  color:red;
+}
+
+div.hero.hero-lg.container.--second h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 60px;
+  color: black;
+  text-align: center;
+}
+
+div.hero.hero-lg.container.--second p {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.JS {
+  height: 30px;
+  width: 30px;
+  background-color: red;
+}
+
+.HTML {
+  height: 50px;
+  width: 60px;
+  background-color: red;
+}
+
+.CSS {
+  height: 50px; 
+  width: 60px;
+  background-color: red !important;
+}
+
+.line {
+  border-left: 1px solid red;
+  height: 40px;
+  position: absolute;
+  left: 10%;
+}
+
+.snake {
+  width: 60%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+ 
+.hero.hero-lg.--third {
+  background-color: black;
+  text-align: center;
+  height: 100vh;
+  padding: 0%;
+}
+
+div.hero.hero-lg.container.--third h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+div.hero.hero-lg.container.--third p {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.api {
+  background-color: red;
+  height: 40px;
+}
+
+.quiz {
+  width: 60%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero.hero-lg.--fourth {
+  text-align: center;
+  background-color: white;
+  height: 100vh;
+  padding: 0%;
+}
+
+div.hero.hero-lg.container.--fourth h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 60px;
+  color: black;
+  text-align: center;
+}
+
+div.hero.hero-lg.container.--fourth p {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 25px;
+  color: black;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.buddle {
+  width: 60%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero.hero-lg.--fifth {
+  text-align: center;
+  background-color: black;
+  height: 100vh;
+  padding: 0%;
+}
+
+div.hero.hero-lg.container.--fifth h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+div.hero.hero-lg.container.--fifth p {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding-top: 3%;
+}
+
+.history {
+  width: 60%;
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icons {
+  padding: 2px;
+}
+
+.flask {
+    background-color: red;
+    height: 40px;
+}
+
