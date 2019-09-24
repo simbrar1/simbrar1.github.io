@@ -238,7 +238,7 @@ div.hero.hero-lg.container.--second p {
   background-color: black;
   text-align: center;
   height: 100vh;
-  padding: 0%;
+  padding: 0% !important;
 }
 
 div.hero.hero-lg.container.--third h1 {
@@ -333,5 +333,21 @@ div.hero.hero-lg.container.--fifth p {
 .flask {
     background-color: red;
     height: 40px;
+}
+
+.hero.hero-lg.--contact {
+  background-color: white;
+  height: 50vh;
+  text-align: center;
+}
+
+.icons {
+  margin: 5px;
+}
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 50px;
+  color: black;
 }
 
