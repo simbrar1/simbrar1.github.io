@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./styles/main.css">
-  <script type="text/javascript" src="./scripts/index.js"></script>
+  
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Sim Brar Portfolio</title>
+  <title>🌍Sim Brar Portfolio</title>
 </head>
 <body>
   <main>
@@ -36,16 +36,6 @@
         </ul>
       </div> 
   </nav>
-  <button id="myBtn">Open Modal</button>
-  
-  <!-- The Modal -->
-  <div id="myModal" class="modal">
-  
-    <!-- Modal content -->
-    <div class="modal-content">
-      <span class="close">&times;</span>
-      <p>Some text in the Modal..</p>
-    </div>
   
   </div>
     <div class="hero hero-lg container --first" id="home">
@@ -223,15 +213,40 @@
         </div>
         <div class="hero hero-lg container --contact" id="home">
           <section id="contact" class="contact">
-            <h1>Don't Be a Stranger...Message Me</h1>
+            <!-- Trigger/Open The Modal -->
+            <button id="myBtn">Learn about me</button>
+            
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+            
+              <!-- Modal content -->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h3>A newly graduated Londoner from <a class="ga" href="https://generalassemb.ly/education/software-engineering-immersive/london">General Assembly's Software Engineering Immersive Course</a>, ready to explore and start my career in Sydney!</h3>
+                </div>
+                <br>
+                <div class="modal-body">
+                  <p>A 3 month fast-paced learning environment included team collaborations as well as individual projects which, include
+                  some of the most indemand languages. Please review my projects to see some of the awesome apps I built.</p>
+                  <p>With a background in Account Management, I feel well equipt combining my previous and newly learnt skills together to apply this to my first Junior position.</p>
+                </div>
+                <div class="modal-footer">
+                  <p>When I am not coding I enjoy:</p>
+                  <p>exploring new cities, reading history, playing sport, watching movies, and meeting new people.</p>
+                </div>
+              </div>
+            </div>
+            <div class="bl"></div>
+            <h2>Don't Be a Stranger...Message Me</h2>
             <div class="icons">
               <a class="c-hand" href="mailto:mailto:sim.brar01@gmail.com?Subject=Hello" target="_top"><i class="fa fa-envelope-o" style="font-size:48px;color:red"></i></a>
               <span class="git-first" style="font-size: 50px; color:red;"> <a href="https://github.com/simbrar1"><i class="fa fa-github custom-color"></i></a></span>
               <a href="https://www.linkedin.com/in/sim-brar1/"><i class="fa fa-linkedin" style="font-size:48px;color:red"></i></a>
             </div>
           </section>
-        </div>
     </main>
+    <script type="text/javascript" src="./scripts/index.js"></script>
   </body>
 </html>
 

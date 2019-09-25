@@ -124,8 +124,8 @@
   justify-content: flex-start;
   flex-direction: column;
   position: absolute;
-  padding-top: 20px; */
-  padding-left: 7px;
+  padding-top: 20px;
+  padding-left: 7px; */
 
 }
 
@@ -337,8 +337,10 @@ div.hero.hero-lg.container.--fifth p {
 
 .hero.hero-lg.--contact {
   background-color: white;
-  height: 50vh;
+  height: 40vh;
   text-align: center;
+  color: black;
+  padding: 5%;
 }
 
 .icons {
@@ -347,7 +349,7 @@ div.hero.hero-lg.container.--fifth p {
 
 h1 {
   font-family: 'Source Code Pro', monospace;
-  font-size: 50px;
+  font-size: 60px;
   color: black;
 }
 
@@ -367,16 +369,24 @@ h1 {
 
 /* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
+  background-color: white;
+  color: black;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 20px;
   margin: 15% auto; /* 15% from the top and centered */
   padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  border: 2px solid red;
+  width: 90%; /* Could be more or less, depending on screen size */
+  height: 60%;
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s;
+  animation-name: animatetop;
+  animation-duration: 0.9s
 }
 
 /* The Close Button */
 .close {
-  color: #aaa;
+  color:red;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -384,7 +394,43 @@ h1 {
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: red;
   text-decoration: none;
   cursor: pointer;
+}
+
+#myBtn {
+float: left;
+background-color: black;
+color: white;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.ga {
+  color: red;
+  text-decoration: underline;
+  font-family: 'Source Code Pro', monospace;
+}
+
+h2 {
+  color: black;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 50px;
+}
+
+.bl {
+  border-left: 1px solid red;
+  height: 250px;
+  position: absolute;
+  left: 20%;
 }
