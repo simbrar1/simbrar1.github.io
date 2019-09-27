@@ -118,14 +118,21 @@
   height: 100vh;
 }
 
+.social-icons {
+  max-width: 250px;
+  height: 500px;
+  position: absolute;
+  top: 132px;
+  left: 30px;
+}
+
+.social-icons .linkedin-icon {
+  position: absolute;
+  top: 20px;
+}
+
 .fa-github:before {
   color: red;
-  /* display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  position: absolute;
-  padding-top: 20px;
-  padding-left: 7px; */
 
 }
 
@@ -140,9 +147,10 @@
 
 .vl {
   border-left: 1px solid red;
-  height: 400px;
+  height: 100vh;
   position: absolute;
-  left: 10%;
+  top: 0;
+  left: 137px;
 }
 
 .section {
@@ -150,6 +158,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: relative;
+}
+
+.text-container {
+  margin-left: 137px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .section.section--large {
@@ -183,6 +200,14 @@ div.col-10 h1 {
   padding: 0%;
 }
 
+.hero.hero-lg.--second .projects {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .fa-play-circle-o:before {
   color:red;
 }
@@ -196,7 +221,7 @@ div.hero.hero-lg.container.--second h1 {
 
 div.hero.hero-lg.container.--second p {
   font-family: 'Source Code Pro', monospace;
-  font-size: 25px;
+  font-size: 18px;
   color: black;
   text-align: center;
   padding-top: 3%;
@@ -223,8 +248,7 @@ div.hero.hero-lg.container.--second p {
 .line {
   border-left: 1px solid red;
   height: 40px;
-  position: absolute;
-  left: 10%;
+  padding: 0 8px;
 }
 
 .snake {
@@ -238,7 +262,15 @@ div.hero.hero-lg.container.--second p {
   background-color: black;
   text-align: center;
   height: 100vh;
-  padding: 0% !important;
+  padding: 0%;
+}
+
+.hero.hero-lg.--third .projects {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 div.hero.hero-lg.container.--third h1 {
@@ -250,7 +282,7 @@ div.hero.hero-lg.container.--third h1 {
 
 div.hero.hero-lg.container.--third p {
   font-family: 'Source Code Pro', monospace;
-  font-size: 25px;
+  font-size: 18px;
   color: white;
   text-align: center;
   padding-top: 3%;
@@ -275,6 +307,14 @@ div.hero.hero-lg.container.--third p {
   padding: 0%;
 }
 
+.hero.hero-lg.--fourth .projects {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 div.hero.hero-lg.container.--fourth h1 {
   font-family: 'Source Code Pro', monospace;
   font-size: 60px;
@@ -284,7 +324,7 @@ div.hero.hero-lg.container.--fourth h1 {
 
 div.hero.hero-lg.container.--fourth p {
   font-family: 'Source Code Pro', monospace;
-  font-size: 25px;
+  font-size: 18px;
   color: black;
   text-align: center;
   padding-top: 3%;
@@ -304,6 +344,14 @@ div.hero.hero-lg.container.--fourth p {
   padding: 0%;
 }
 
+.hero.hero-lg.--fifth .projects {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 div.hero.hero-lg.container.--fifth h1 {
   font-family: 'Source Code Pro', monospace;
   font-size: 60px;
@@ -313,7 +361,7 @@ div.hero.hero-lg.container.--fifth h1 {
 
 div.hero.hero-lg.container.--fifth p {
   font-family: 'Source Code Pro', monospace;
-  font-size: 25px;
+  font-size: 18px;
   color: white;
   text-align: center;
   padding-top: 3%;
@@ -335,12 +383,22 @@ div.hero.hero-lg.container.--fifth p {
     height: 40px;
 }
 
-.hero.hero-lg.--contact {
+.hero.hero-lg.--footer {
   background-color: white;
-  height: 40vh;
+  height: auto;
   text-align: center;
   color: black;
   padding: 5%;
+}
+
+.hero-lg.--footer.carousel {
+  background: #f7f8f9;
+  display: block;
+  overflow: hidden;
+  -webkit-overflow-scrolling: touch;
+  position: relative;
+  width: 60%;
+  z-index: 1;
 }
 
 .icons {
@@ -360,8 +418,8 @@ h1 {
   z-index: 1; /* Sit on top */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
+  width: 100%; 
+  height: 100%; 
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
@@ -373,11 +431,12 @@ h1 {
   color: black;
   font-family: 'Source Code Pro', monospace;
   font-size: 20px;
-  margin: 15% auto; /* 15% from the top and centered */
+  margin: 15% auto; 
   padding: 20px;
   border: 2px solid red;
-  width: 90%; /* Could be more or less, depending on screen size */
-  height: 60%;
+  width: 80%;
+  height: 70%;
+  overflow: auto;
   -webkit-animation-name: animatetop;
   -webkit-animation-duration: 0.4s;
   animation-name: animatetop;
@@ -403,6 +462,12 @@ h1 {
 float: left;
 background-color: black;
 color: white;
+font-family: 'Source Code Pro', monospace;
+cursor: pointer;
+}
+
+#myBtn:hover {
+  background-color: red;
 }
 
 /* Add Animation */
@@ -417,15 +482,20 @@ color: white;
 }
 
 .ga {
-  color: red;
+  color: black;
   text-decoration: underline;
   font-family: 'Source Code Pro', monospace;
+}
+
+a:visited.ga {
+  color: black;
 }
 
 h2 {
   color: black;
   font-family: 'Source Code Pro', monospace;
   font-size: 50px;
+  margin-right: 115px;
 }
 
 .bl {
@@ -433,4 +503,137 @@ h2 {
   height: 250px;
   position: absolute;
   left: 20%;
+}
+
+.projects .icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects .icons .icons-title {
+  display: flex;
+  padding-right: 10px;
+}
+
+.project-image-container {
+  width: 663px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.project-image-container .project-image {
+  width: 663px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.project-description {
+  max-width: 670px;
+  margin: 0 auto;
+}
+
+.contact-container {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fa-linkedin:before {
+    content: "\f0e1";
+    padding: 4px;
+    margin-right: 100px;
+}
+
+.fa-github:before {
+    content: "\f09b";
+    padding: 4px;
+}
+
+.fa-envelope-o:before {
+  content: "\f003";
+  padding: 4px;
+}
+
+#arr {
+  margin-right: 936px;
+}
+
+#myBtn1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn1:hover {
+  background-color: red; /* Add a dark-grey background on hover */
+}
+
+.snake {
+/* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .3s ease-in-out;  
+}
+
+.snake:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+.quiz {
+/* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .3s ease-in-out;  
+}
+
+.quiz:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+.buddle {
+/* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .3s ease-in-out;  
+}
+
+.buddle:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+}
+
+.history {
+/* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+  filter: gray; /* IE5+ */
+  -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+  -webkit-transition: all .3s ease-in-out;  
+}
+
+.history:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
 }
