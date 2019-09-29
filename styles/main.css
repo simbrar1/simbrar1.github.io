@@ -143,6 +143,7 @@
   flex-direction: column;
   justify-content: flex-start;
   position: absolute;
+  padding-left: 4px;
 }
 
 .vl {
@@ -550,6 +551,7 @@ h2 {
     content: "\f0e1";
     padding: 4px;
     margin-right: 100px;
+    /* padding-left: 4px; */
 }
 
 .fa-github:before {
@@ -594,7 +596,7 @@ a:visited.fb {
 /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
   filter: gray; /* IE5+ */
   -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
-  -webkit-transition: all .3s ease-in-out;  
+  -webkit-transition: all .7s ease-in-out;  
 }
 
 .snake:hover {
@@ -607,7 +609,7 @@ a:visited.fb {
 /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
   filter: gray; /* IE5+ */
   -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
-  -webkit-transition: all .3s ease-in-out;  
+  -webkit-transition: all .7s ease-in-out;  
 }
 
 .quiz:hover {
@@ -620,7 +622,7 @@ a:visited.fb {
 /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
   filter: gray; /* IE5+ */
   -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
-  -webkit-transition: all .3s ease-in-out;  
+  -webkit-transition: all .7s ease-in-out;  
 }
 
 .buddle:hover {
@@ -633,7 +635,7 @@ a:visited.fb {
 /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
   filter: gray; /* IE5+ */
   -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
-  -webkit-transition: all .3s ease-in-out;  
+  -webkit-transition: all .7s ease-in-out;  
 }
 
 .history:hover {
