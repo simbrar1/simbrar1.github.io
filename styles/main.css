@@ -488,7 +488,7 @@ cursor: pointer;
 }
 
 a:visited.ga {
-  color: black;
+  color: red;
 }
 
 h2 {
@@ -564,6 +564,10 @@ h2 {
 
 #arr {
   margin-right: 936px;
+}
+
+a:visited.fb {
+  color: red;
 }
 
 #myBtn1 {
