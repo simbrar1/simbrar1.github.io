@@ -1,25 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <link rel="stylesheet" href="./styles/main.css">
-  
+
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
   <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet"
+    href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>🌟Sim Brar Portfolio</title>
 </head>
+
 <body>
   <main>
-<!-- Home -->
-    <nav role="navigation" class="navigation"> 
-      <div id="menuToggle"> 
-        <input type="checkbox" /> 
+    <!-- Home -->
+    <nav role="navigation" class="navigation">
+      <div id="menuToggle">
+        <input type="checkbox" />
         <span></span>
         <span></span>
         <span></span>
@@ -31,257 +34,275 @@
             <li>Projects</li>
           </a>
           <a href="#contact">
-            <li>Contact</li> 
+            <li>Contact</li>
           </a>
           <a href="#about">
             <li>About Me</li>
           </a>
         </ul>
-      </div> 
-  </nav>
-  </div>
+      </div>
+    </nav>
+    </div>
     <div class="hero hero-lg container --first" id="home">
       <div class="columns">
         <div class="vl"></div>
-          <div class="initial-container section col-10">
-            <ul class="social-icons icon-circle list-unstyled list-inline">
-              <div class="techs">
-                <span class="git-first" style="font-size: 50px; color:white;"> <a href="https://github.com/simbrar1"
-                    target="_blank"><i class="fa fa-github custom-color"></i></a></span>
-                <span class="linkedin-icon" style="font-size: 50px; color:red;">
-                  <a href="https://www.linkedin.com/in/sim-brar1/" target="_blank"><i class="fa fa-linkedin-square"></i></a></span>
-              </div>
-            </ul>
-            <div class="text-container">
-              <h1> Hi! I'm Sim, welcome to my portfolio.</h1>
-              <a class="c-hand" href="mailto:mailto:sim.brar01@gmail.com?Subject=Hello" target="_top">Message Me Here.</a>
+        <div class="initial-container section col-10">
+          <ul class="social-icons icon-circle list-unstyled list-inline">
+            <div class="techs">
+              <div class="git-first" style="font-size: 50px; color:red;"><a class="git" style="text-decoration: none;"
+                  href="https://github.com/simbrar1" target="_blank"><i class="devicon-github-plain"></i></a></div>
+              <div class="linkedin-icon" style="font-size: 50px; color:white;">
+                <a href="https://www.linkedin.com/in/sim-brar1/" target="_blank"><i
+                    class="fa fa-linkedin-square"></i></a></div>
             </div>
+          </ul>
+          <div class="text-container">
+            <h1> Hi! I'm Sim, welcome to my portfolio.</h1>
+            <a class="c-hand" href="mailto:mailto:sim.brar01@gmail.com?Subject=Hello" target="_top">Message Me Here.</a>
           </div>
         </div>
       </div>
-      <!-- Projects -->
-      <div class="hero hero-lg container --second" id="home">
-        <section id="projects" class="projects">
-          <div>
-            <h1 class="title">Snake - Lion King Edition</h1>
+    </div>
+    <!-- Projects -->
+    <div class="hero hero-lg container --second" id="home">
+      <section id="projects" class="projects">
+        <div>
+          <h1 class="title">Snake - Lion King Edition</h1>
+        </div>
+<div>
+  <span style="font-size: 50px; color:red;"> <a href="https://github.com/simbrar1/SEI-project-1/blob/master/readme.md"
+      target="_blank"><i class="fa fa-github custom-color"></i></a></span>
+  <span style="font-size: 50px; color:red;"> <a href="https://simbrar1.github.io/SEI-project-1/" target="_blank"><i
+        class="fa fa-play-circle-o custom-color"></i></a></span>
+</div>
+        <div>
+          <p class="project-description">
+            A Vanilla JS app inspired by the classic game of Snake. Aim of the game is to move the lion around the grid
+            to eat the food without touching the sides...otherwise it's GAME OVER.
+          </p>
+          <div class="icons">
+            <p class="icons-title">Technologies used</p>
+            <span class="line"></span>
+            <span style="font-size: 40px; color: red;">
+              <i class="devicon-javascript-plain"></i></span>
+            <span style="font-size: 40px; color: red;">
+              <i class="devicon-html5-plain-wordmark"></i>
+            </span>
+            <span style="font-size: 40px; color: red;">
+              <i class="devicon-css3-plain-wordmark"></i>
+            </span>
           </div>
-          <div>
-            <span style="font-size: 50px; color:red;"> <a href="https://github.com/simbrar1/SEI-project-1/blob/master/readme.md" target="_blank"><i
-            class="fa fa-github custom-color"></i></a></span>
-            <span style="font-size: 50px; color:red;"> <a href="https://simbrar1.github.io/SEI-project-1/" target="_blank"><i
-            class="fa fa-play-circle-o custom-color"></i></a></span>
+          <div class="project-image-container snake">
+            <img class="project-image snake" src="assets/gamec.png" alt="snake">
           </div>
+        </div>
+      </section>
+    </div>
+    <!-- Movie Quiz -->
+    <div class="hero hero-lg container --third" id="home">
+      <section id="project-1" class="projects project-1">
+        <div>
+          <h1 class="title">Movie Quiz</h1>
+        </div>
+
+        <div>
+          <span style="font-size: 50px; color:red;"><a
+              href="https://github.com/simbrar1/SEI-project-2/blob/master/readme.md" target="_blank"><i
+                class="fa fa-github custom-color"></i></a>
+          </span>
+          <span style="font-size: 50px; color:red;"><a href="https://moviequiz.herokuapp.com/" target="_blank"><i
+                class="fa fa-play-circle-o custom-color"></i></a></span>
+        </div>
+
+        <div>
+          <p class="project-description">A React Movie Quiz App with a built in third party API. The app allows you to
+            choose different levels of difficulties on questions about popular movies. The quiz is out of 10 which shows
+            the score at the end!
+          </p>
+          <div class="icons">
+            <p class="icons-title">Technologies used</p>
+            <span class="line"></span>
+            <span style="font-size: 40px; color: red;">
+              <i class="devicon-javascript-plain"></i></span>
+            <span style="font-size: 40px; color: red;">
+              <i class="devicon-html5-plain-wordmark"></i>
+            </span>
+            <span style="font-size: 40px; color: red;">
+              <i class="devicon-css3-plain-wordmark"></i>
+            </span>
+            <span style="font-size: 40px; color: red;">
+              <i class="devicon-react-original-wordmark"></i>
+            </span>
+            <img class="api" src="assets/api(2).png" alt="api">
+          </div>
+          <div class="project-image-container quiz">
+            <img class="project-image quiz" src="assets/quiz1.jpg" alt="quiz">
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- buddle -->
+    <div class="hero hero-lg container --fourth" id="home">
+      <section id="project-2" class="projects project-2">
+        <div>
+          <h1 class="title">Buddle</h1>
+        </div>
+
+        <div>
+          <span style="font-size: 50px; color:red;"><a href="https://github.com/simbrar1/sei-group-project"
+              target="_blank"><i class="fa fa-github custom-color"></i></a>
+          </span>
+          <span style="font-size: 50px; color:red;"><a href="https://buddle-app.herokuapp.com/" target="_blank"><i
+                class="fa fa-play-circle-o custom-color"></i></a></span>
           <div>
-            <p class="project-description">
-              A Vanilla JS app inspired by the classic game of Snake. Aim of the game is to move the lion around the grid to eat the food without touching the sides...otherwise it's GAME OVER.
-            </p>
-            <div class="icons">
-              <p class="icons-title">Technologies used</p>
-              <span class="line"></span>
-              <span style="font-size: 40px; color: red;">
-                <i class="devicon-javascript-plain"></i></span>
-              <span style="font-size: 40px; color: red;">
-                <i class="devicon-html5-plain-wordmark"></i>
-              </span>
-              <span style="font-size: 40px; color: red;">
-                <i class="devicon-css3-plain-wordmark"></i>
-              </span>
+          </div>
+
+          <p class="project-description"> A full stack React and Node.js app. A social app that allows your to share
+            your interests and hobbies on social media, for example; want to play tennis but no one to go with?
+          </p>
+          <div class="icons">
+            <p class="icons-title">Technologies used</p>
+            <span class="line"></span>
+            <span style="font-size: 40px; color: red;">
+              <i class="devicon-html5-plain-wordmark"></i>
+            </span>
+            <span style="font-size: 40px; color: red;">
+              <i class="devicon-sass-original"></i>
+            </span>
+            <span style="font-size: 40px; color: red;">
+              <i class="devicon-javascript-plain"></i></span>
+            <span style="font-size: 40px; color: red;">
+              <i class="devicon-react-original-wordmark"></i>
+            </span>
+            <span style="font-size: 55px; color: red;">
+              <i class="devicon-express-original-wordmark"></i>
+            </span>
+            <span style="font-size: 60px; color: red;">
+              <i class="devicon-nodejs-plain-wordmark"></i>
+            </span>
+            <span style="font-size: 55px; color: red;">
+              <i class="devicon-mongodb-plain-wordmark"></i>
+            </span>
+            <img class="api" src="assets/api(2).png" alt="api">
+            <div class="line"></div>
+          </div>
+          <div class="project-image-container buddle">
+            <img class="project-image buddle" src="assets/buddle.png" alt="buddle">
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- History -->
+    <div class="hero hero-lg container --fifth" id="home">
+      <section id="project-3" class="projects project-3">
+        <div>
+          <h1 class="title">History Info</h1>
+        </div>
+
+        <div>
+          <span style="font-size: 50px; color:red;"><a href="https://github.com/simbrar1/SEI-Project-4"
+              target="_blank"><i class="fa fa-github custom-color"></i></a>
+          </span>
+          <span style="font-size: 50px; color:red;"><a href="https://historysb.herokuapp.com/" target="_blank"><i
+                class="fa fa-play-circle-o custom-color"></i></a></span>
+        </div>
+
+        <div>
+          <p class="project-description"> A full stack React and Python app for all the history fans...Login and create
+            your own fact inside the timeline.
+          </p>
+          <div class="icons">
+            <p class="icons-title">Technologies used</p>
+            <span class="line"></span>
+            <span style="font-size: 40px; color: red;">
+              <i class="devicon-html5-plain-wordmark"></i>
+            </span>
+            <span style="font-size: 40px; color: red;">
+              <i class="devicon-sass-original"></i>
+            </span>
+            <span style="font-size: 40px; color: red;">
+              <i class="devicon-javascript-plain"></i></span>
+            <span style="font-size: 40px; color: red;">
+              <i class="devicon-react-original-wordmark"></i>
+            </span>
+            <span style="font-size: 55px; color: red;">
+              <i class="devicon-python-plain-wordmark"></i>
+            </span>
+            <span style="font-size: 55px; color: red;">
+              <i class="devicon-postgresql-plain-wordmark"></i>
+            </span>
+            <img class="flask" src="assets/flask.png" alt="flask">
+
+          </div>
+          <div class="project-image-container history">
+            <img class="project-image history" src="assets/history1.png" alt="history">
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <div class="hero hero-lg container --footer" id="home">
+      <section id="about" class="about-container">
+        <!-- Trigger/Open The Modal -->
+        <div id="about" class="about">
+          <button id="myBtn">Learn about me</button>
+
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <span class="close">&times;</span>
+                <h3>A newly graduated Londoner from <a class="ga"
+                    href="https://generalassemb.ly/education/software-engineering-immersive/london "
+                    target="_blank">General Assembly's Software Engineering Immersive Course</a>, ready to explore and
+                  start my career in Sydney!</h3>
+              </div>
+              <br>
+              <div class="modal-body">
+                <p>A 3 month fast-paced learning environment included team collaborations as well as individual projects
+                  which, include
+                  some of the most in demand languages. Please review my projects to see some of the awesome apps I
+                  built.</p>
+              </div>
+              <div class="modal-footer">
+                <p>When I am not coding I enjoy:</p>
+                <ul>
+                  <li>A huge travel addict ✈️ out of the 7 continents I have travelled 6. When is the best time to visit
+                    Antarctica?</li>
+                  <li>Extreme movie buff! Love especially to visit the movie set locations, such as Hobbiton and
+                    fulfilling a life goal of having a drink at the Green Dragon🍺</li>
+                  <li>Enjoy hiking more specifically have climbed Mount Doom 🌋.</li>
+                  <li>I love playing sports 🏌🏽‍♀️🏑🎾, which makes me super competitive🥇.</li>
+                  <li>I am a History enthusiast and travelled for a month in Europe doing a WW2 tour.</li>
+                  <li>Lastly I am a self-proclaimed burger connoisseur. If you think you have a burger that beats <a
+                      class="fb" href="https://www.fergburger.com/menu.html">Fergburger,</a>please let me know! 🍔</li>
+                </ul>
+              </div>
             </div>
-            <div class="project-image-container snake">
-              <img class="project-image snake" src="assets/gamec.png" alt="snake">
-            </div>
           </div>
-        </section>
+        </div>
+        <div class="contact-container" id="contact">
+          <div class="bl"></div>
+          <h2>Don't Be a Stranger...Message Me</h2>
+          <div class="icons">
+            <a class="c-hand" href="mailto:mailto:sim.brar01@gmail.com?Subject=Hello" target="_top"><i
+                class="fa fa-envelope-o" style="font-size:48px;color:red"></i></a>
+            <span class="git-first" style="font-size: 50px; color:red;"> <a href="https://github.com/simbrar1"
+                target="_blank"><i class="fa fa-github custom-color"></i></a>
+            </span>
+            <a href="https://www.linkedin.com/in/sim-brar1/" target="_blank"><i class="fa fa-linkedin"
+                style="font-size:48px;color:red"></i></a>
+          </div>
+      </section>
+      <div>
+        <button onclick="topFunction()" id="myBtn1" title="Go to top" class="fa fa-angle-double-up"></button>
       </div>
-<!-- Movie Quiz -->
-        <div class="hero hero-lg container --third" id="home">
-          <section id="project-1" class="projects project-1">
-            <div>
-              <h1 class="title">Movie Quiz</h1>
-            </div>
-            
-            <div>
-              <span style="font-size: 50px; color:red;"><a href="https://github.com/simbrar1/SEI-project-2/blob/master/readme.md"
-                  target="_blank"><i class="fa fa-github custom-color"></i></a>
-              </span>
-              <span style="font-size: 50px; color:red;"><a href="https://moviequiz.herokuapp.com/" target="_blank"><i
-                    class="fa fa-play-circle-o custom-color"></i></a></span>
-            </div>
-            
-              <div>
-                <p class="project-description">A React Movie Quiz App with a built in third party API. The app allows you to choose different levels of difficulties on questions about popular movies. The quiz is out of 10 which shows the score at the end!
-                </p>
-                <div class="icons">
-                  <p class="icons-title">Technologies used</p>
-                  <span class="line"></span>
-                  <span style="font-size: 40px; color: red;">
-                    <i class="devicon-javascript-plain"></i></span>
-                  <span style="font-size: 40px; color: red;">
-                    <i class="devicon-html5-plain-wordmark"></i>
-                  </span>
-                    <span style="font-size: 40px; color: red;">
-                    <i class="devicon-css3-plain-wordmark"></i>
-                  </span>
-                  <span style="font-size: 40px; color: red;">
-                    <i class="devicon-react-original-wordmark"></i>
-                  </span>
-                  <img class="api" src="assets/api(2).png" alt="api">
-                </div>
-                <div class="project-image-container quiz">
-                  <img class="project-image quiz" src="assets/quiz1.jpg" alt="quiz">
-                </div>
-              </div>
-            </section>
-          </div>
-<!-- buddle -->
-        <div class="hero hero-lg container --fourth" id="home">
-          <section id="project-2" class="projects project-2">
-            <div>
-              <h1 class="title">Buddle</h1>
-            </div>
+    </div>
+  </main>
+  <script type="text/javascript" src="./scripts/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</body>
 
-            <div>
-              <span style="font-size: 50px; color:red;"><a href="https://github.com/simbrar1/sei-group-project" target="_blank"><i
-                    class="fa fa-github custom-color"></i></a>
-              </span>
-              <span style="font-size: 50px; color:red;"><a href="https://buddle-app.herokuapp.com/" target="_blank"><i
-                    class="fa fa-play-circle-o custom-color"></i></a></span>
-              <div>
-            </div>
-
-              <p class="project-description"> A full stack React and Node.js app. A social app that allows your to share your interests and hobbies on social media, for example; want to play tennis but no one to go with?
-              </p>
-              <div class="icons">
-                <p class="icons-title">Technologies used</p>
-                <span class="line"></span>
-                <span style="font-size: 40px; color: red;">
-                  <i class="devicon-html5-plain-wordmark"></i>
-                </span>
-                <span style="font-size: 40px; color: red;">
-                  <i class="devicon-sass-original"></i>
-                </span>
-                <span style="font-size: 40px; color: red;">
-                  <i class="devicon-javascript-plain"></i></span>
-                <span style="font-size: 40px; color: red;">
-                  <i class="devicon-react-original-wordmark"></i>
-                </span>
-                <span style="font-size: 55px; color: red;">
-                  <i class="devicon-express-original-wordmark"></i>
-                </span>
-                <span style="font-size: 60px; color: red;">
-                  <i class="devicon-nodejs-plain-wordmark"></i>
-                </span>
-                <span style="font-size: 55px; color: red;">
-                  <i class="devicon-mongodb-plain-wordmark"></i>
-                </span>
-                <img class="api" src="assets/api(2).png" alt="api">
-                <div class="line"></div>
-              </div>
-              <div class="project-image-container buddle">
-                <img class="project-image buddle" src="assets/buddle.png" alt="buddle">
-              </div>
-            </div>
-          </section>
-        </div>
-        <!-- History -->
-          <div class="hero hero-lg container --fifth" id="home">
-            <section id="project-3" class="projects project-3">
-              <div>
-                <h1 class="title">History Info</h1>
-              </div>
-
-              <div>
-                <span style="font-size: 50px; color:red;"><a href="https://github.com/simbrar1/SEI-Project-4" target="_blank"><i
-                      class="fa fa-github custom-color"></i></a>
-                </span>
-                <span style="font-size: 50px; color:red;"><a href="https://historysb.herokuapp.com/" target="_blank"><i
-                  class="fa fa-play-circle-o custom-color"></i></a></span>
-              </div>
-          
-              <div>
-                <p class="project-description"> A full stack React and Python app for all the history fans...Login and create your own fact inside the timeline. 
-                </p>
-                <div class="icons">
-                  <p class="icons-title">Technologies used</p>
-                  <span class="line"></span>
-                  <span style="font-size: 40px; color: red;">
-                    <i class="devicon-html5-plain-wordmark"></i>
-                  </span>
-                  <span style="font-size: 40px; color: red;">
-                    <i class="devicon-sass-original"></i>
-                  </span>
-                  <span style="font-size: 40px; color: red;">
-                    <i class="devicon-javascript-plain"></i></span>
-                  <span style="font-size: 40px; color: red;">
-                    <i class="devicon-react-original-wordmark"></i>
-                  </span>
-                  <span style="font-size: 55px; color: red;">
-                    <i class="devicon-python-plain-wordmark"></i>
-                  </span>
-                  <span style="font-size: 55px; color: red;">
-                    <i class="devicon-postgresql-plain-wordmark"></i>
-                  </span>
-                  <img class="flask" src="assets/flask.png" alt="flask">
-                  
-                </div>
-                <div class="project-image-container history">
-                  <img class="project-image history" src="assets/history1.png" alt="history">
-                </div>
-              </div>
-          </section>
-        </div>
-
-        <div class="hero hero-lg container --footer" id="home">
-          <section id="about" class="about-container">
-           <!-- Trigger/Open The Modal -->
-            <div id="about" class="about">
-            <button id="myBtn">Learn about me</button>
-            
-            <!-- The Modal -->
-            <div id="myModal" class="modal">
-            
-              <!-- Modal content -->
-              <div class="modal-content">
-                <div class="modal-header">
-                  <span class="close">&times;</span>
-                  <h3>A newly graduated Londoner from <a class="ga" href="https://generalassemb.ly/education/software-engineering-immersive/london " target="_blank">General Assembly's Software Engineering Immersive Course</a>, ready to explore and start my career in Sydney!</h3>
-                </div>
-                <br>
-                <div class="modal-body">
-                  <p>A 3 month fast-paced learning environment included team collaborations as well as individual projects which, include
-                  some of the most indemand languages. Please review my projects to see some of the awesome apps I built.</p>
-                </div>
-                <div class="modal-footer">
-                  <p>When I am not coding I enjoy:</p>
-                  <ul>
-                    <li>A huge travel addict ✈️ out of the 7 continents I have travelled 6. When is the best time to visit Antarctica?</li>
-                    <li>Extreme movie buff! Love especially to visit the movie set locations, such as Hobbiton and fulfilling a life goal of having a drink at the Green Dragon🍺</li>
-                    <li>Enjoy hiking more specifically have climbed Mount Doom 🌋.</li>
-                    <li>I love playing sports 🏌🏽‍♀️🏑🎾, which makes me super competitive🥇.</li>
-                    <li>I am a History enthusiast and travelled for a month in Europe doing a WW2 tour.</li>
-                    <li>Lastly I am a self-proclaimed burger connoisseur. If you think you have a burger that beats <a class="fb" href="https://www.fergburger.com/menu.html">Fergburger,</a>please let me know! 🍔</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            </div>
-            <div class="contact-container" id="contact">
-              <div class="bl"></div>
-              <h2>Don't Be a Stranger...Message Me</h2>
-              <div class="icons">
-              <a class="c-hand" href="mailto:mailto:sim.brar01@gmail.com?Subject=Hello" target="_top"><i class="fa fa-envelope-o" style="font-size:48px;color:red"></i></a>
-                <span class="git-first" style="font-size: 50px; color:red;"> <a href="https://github.com/simbrar1" target="_blank"><i class="fa fa-github custom-color"></i></a>
-              </span>
-              <a href="https://www.linkedin.com/in/sim-brar1/" target="_blank"><i class="fa fa-linkedin" style="font-size:48px;color:red"></i></a>
-            </div>
-          </section>
-          <div>
-            <button onclick="topFunction()" id="myBtn1" title="Go to top" class="fa fa-angle-double-up"></button>
-        </div>
-        </div>
-     </main>
-    <script type="text/javascript" src="./scripts/index.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-  </body>
 </html>
-

@@ -124,6 +124,7 @@
   position: absolute;
   top: 132px;
   left: 30px;
+  color: red;
 }
 
 .social-icons .linkedin-icon {
@@ -131,9 +132,9 @@
   top: 20px;
 }
 
-.fa-github:before {
+.devicon-github-original:before, .devicon-github-plain:before {
   color: red;
-
+  background: black;
 }
 
 .fa-linkedin-square:before {
@@ -179,7 +180,7 @@
 
 .section a {
   color: red;
-}
+} 
 
 .section a:hover {
   color: red;
@@ -188,7 +189,7 @@
 div.col-10 h1 {
   font-family: 'Source Code Pro', monospace;
   color: white;
-  margin-left: 15%;
+  margin-left: 20%;
   margin-top: 10%;
   font-size: 70px;
   text-align: center;
@@ -557,6 +558,7 @@ h2 {
 .fa-github:before {
     content: "\f09b";
     padding: 4px;
+    color: red;
 }
 
 .fa-envelope-o:before {
@@ -642,4 +644,8 @@ a:visited.fb {
   filter: none;
   -webkit-filter: grayscale(0);
   -webkit-transform: scale(1.01);
+}
+
+a.c-hand {
+    padding-left: 100px;
 }
